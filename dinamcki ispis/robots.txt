@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /index.html
-Disallow: /index.html#autor
-
-
-Sitemap: https://coffeemasters.000webhostapp.com/sitemap.xml
