@@ -1,0 +1,1159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+
+.wrapper {
+
+   width: 90%;
+   margin: 0px auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px;
+  text-align: center;
+  
+}
+
+p{
+  font-family: 'EB Garamond', serif;
+  font-size:18px
+}
+
+
+  
+  header {
+    background-image: url("../img/backgroundimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+
+    
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+    
+  }
+  
+  header{
+    background-color: #342d35;
+  
+  
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 24px;
+    z-index: 100;
+    
+  }
+  
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  
+  }
+  
+  .logo{
+    font-size: 2rem;
+  }
+  
+  .nav-link{
+    transition: 0.7 ease;
+  }
+  
+  .nav-link:hover{
+  
+    color: #943f1d;
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+    
+  
+  }
+  
+  
+  .bar{
+    display: block;
+    width: 25px;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+   
+  }
+  
+  @media(max-width:768px){
+  
+    .hamburger{
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+  
+  .nav-menu{
+    
+    position: fixed;
+    left:-100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgb(62, 54, 63);
+    text-align: center;
+    transition: 0.3s;
+    z-index: 100;
+  }
+  
+  .nav-item{
+    margin:16px 0;
+  }
+  
+  .nav-menu.active{
+    left:0;
+  }
+  
+  
+  }
+  
+  .logo{ float:left;}
+  .logo a h2{
+    padding-top: 20px;
+  }
+  .logo h2 {
+    color: #ffffff;
+    -webkit-text-stroke: thin;
+    
+  }
+  
+  .logo h2::first-letter {
+    color: #943f1d;
+  }
+
+  h2::first-letter{
+    color: #943f1d;
+  }
+  
+  .nav {
+
+    
+    padding-bottom: 30px;
+    text-align: right;
+    
+    
+  }
+  .row-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+#container-slajdshow{
+  padding: 5%;
+}
+  #blok1{
+   
+    background-color:#1b181b;
+    
+    
+  }
+ 
+ 
+
+  .naslovblok h1{
+
+    color:white;
+    font-size: 35px;
+    
+  }
+
+  .naslovblok  h1::first-letter {
+    color: #943f1d;
+  }
+
+
+  .podnaslov h3{
+    color:white;
+    font-size: 25px;
+    padding-top: 50px;
+  }
+
+
+
+
+ .pocetak p {
+    color:white;
+    text-align: center;
+    line-height: 200%;
+    margin-bottom: 5%;
+    font-size: 25px;
+  }
+
+  .naslovblok{
+
+   padding-top:3%;
+    text-align: center;
+    -webkit-text-stroke: thin;
+  }
+
+  .podnaslov {
+
+    
+    
+    text-align: center;
+  } 
+
+  #blok2 {
+    
+    background-image:url("../img/Slika1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .transperent{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+
+  .formaUsluge{
+    
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+  
+  }
+  select { 
+    
+    display: block; margin: 0 auto;
+  
+  }
+  #select1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 5px 20px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #3E363F;
+    border-radius: 18px;
+    border: solid 3px white;
+    font-weight: bold;
+   
+}
+
+#select1 option{
+  font-family: Arial;
+ 
+}
+
+  .rowCard{
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    
+    
+    margin-bottom: 35px;
+    background-color: #3E363F;
+  opacity: 0.9;
+    border-radius: 9px;
+    width: 15%;
+    
+}
+.card img{
+
+  width: 100%;
+  border: solid 3px #f2f2f2;
+  
+  border-radius: 9px;
+}
+
+
+.card h4{
+  font-size: 27px;
+  text-align: center;
+  
+}
+.card p{
+  font-size: 22px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 9%;
+}
+
+.tekstKartice{
+  width: 100%;
+background-color: #943f1d;
+
+border-radius: 10px;
+
+}
+
+.produzetak{
+  height: 200%
+}
+
+
+#blok3 h2{
+  font-size: 40px;
+  padding: 5%;
+}
+
+
+ #blok4{
+  
+  color: #fff;
+  background-color: #342d35;
+  
+}
+
+.formaGreska{color:red;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    font-family: arial;
+    padding-bottom: 5%;
+    
+}
+
+
+.sakri{
+  visibility: hidden;
+  padding-left: 30px;
+}
+
+#forma1{
+  width: 70%;
+  color: white;
+  font-size: 120%;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+  padding-left: 20px;
+  border-radius: 30px;
+ 
+
+  }
+
+
+
+textarea {
+    width: 100%;
+   
+    height: 220px;
+    border-radius: 10px;
+   font-family: Arial;
+  
+   
+}
+
+
+input[type=text],input[type=email], input[type=tel]{
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  height: 40px;
+  padding: 5px 20px;
+ 
+  border-radius: 8px;
+ 
+  box-sizing: border-box;
+  font-family: Arial;
+  
+
+}
+
+.border-greska{
+  outline: 2px solid #c00;
+
+ 
+}
+
+
+
+
+.kolona{
+  padding-top: 3%;
+}
+
+.greskaa{
+  width: 100%;
+}
+
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  height: 30%;
+  width: 30%;
+ 
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+ 
+}
+
+.divdugme{
+  padding-left: 2%;
+  width: 50%;
+}
+.divdugme button{
+  background-color: #943f1d;
+  border: solid 2px #3E363F;
+  border-radius: 10px;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 40px;
+  width: 25%;
+  cursor: pointer;
+}
+
+.red{
+  width: 100%;
+display: flex;
+}
+.kolon{
+  width:50%;
+}
+.kolona1{
+  padding-left: 1.5%;
+  padding-right:1.5%;
+  text-align: center;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height:40px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 15px;
+ 
+}
+.kolona input[type=checkbox]{
+  margin: 0 5px;
+  margin-left: 20px;
+}
+
+#uspehForma{
+  text-align: center;
+   color: green;
+  
+  }
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+.slajdshow{
+
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+  
+
+}
+.Slajd img{ 
+  width: 100%;
+
+
+}
+
+.Slajd {
+  display: none;
+  
+}
+.naslov{
+  font-family: Seaweed Script;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke: thin;
+  position: absolute;
+  padding-top: 5%;
+}
+.Slajd h2{
+  
+  position: absolute;
+}
+
+
+
+.tekst {
+ 
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 12px;
+
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.tekst p{
+  font-size: 30px;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active{
+  background-color: rgb(62, 54, 63);
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.fade2{
+
+  animation-name: fade;
+  animation-duration: 2s ;
+}
+
+@keyframes fade {
+  from {opacity: .6}
+  to {opacity: 1}
+}
+
+.tacke{
+  margin-top: 1%;
+  text-align: center;
+}
+
+
+
+#dodatanblok{
+  height: 650px;
+  background-color:#342d35;
+  
+ 
+}
+#dodatanblok p{
+  margin: 8px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+
+
+
+
+
+.naslovdodatnog{
+  color:white;
+  text-align: center;
+  padding: 5%;
+}
+.naslovdodatnog::first-letter {
+  color: #943f1d;
+}
+
+
+.rowGift{
+    margin-top:60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card2{
+  padding: 3%;
+  width: 30%;
+  border-radius: 15px;
+}
+
+
+
+
+.card2 img{
+  border-radius: 15px;
+  width: 100%;
+  
+  
+}
+
+.card2 img {
+  transition: transform .2s;
+  
+  margin: 0 auto;
+}
+
+.card2 img:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+
+
+.locationText{
+  padding-bottom: 25%;
+}
+
+.rowForm{
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+#autor{
+  
+
+width: 100%;
+background-color: rgb(27, 24, 27);
+padding-bottom:2%;
+text-align: center;
+
+}
+#autor h2{
+  padding: 3%;
+  
+}
+
+.container h2{
+  font-size: 27px;
+  
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row2 {
+  
+  width: 50%;
+  background-color: #342d35;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.row2 img{
+  width: 90%;
+  border-radius: 5px;
+  margin: 5%;
+}
+
+.row2 p{
+  
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.kolona2{
+  width: 50%;
+}
+
+.kolona2din{
+  padding-bottom: 7px;
+}
+
+.dokumentacija{
+  margin: auto;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+.dokumentacija a{
+  color: blue;
+  font-family: Arial;
+}
+
+
+footer {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: #342d35;
+  color: #f2f2f2;
+
+
+}
+.social-red{
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+
+.social-kolona{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social-kolona{
+  width: 20%;
+  margin: 30px auto;
+  
+}
+.social-kolona p{
+  margin: 5px 0;
+}
+.social-kolona h4{
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.social-ikonice ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+.social-ikonice li a{
+  font-size: 25px;
+  margin: 10px;
+  color: #943f1d;
+ 
+  
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(27, 24, 27);
+  padding: 1%;
+}
+.social-kolona h2{
+  text-align: left;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: -40px;
+  right: 40px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #943f1d;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  transform: scale(0.3);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.back-to-top:focus {
+  color: #fff;
+}
+.back-to-top.show {
+  bottom: 40px;
+  right: 40px;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.back-to-top.show:hover {
+  color: #fff;
+  bottom: 30px;
+  opacity: 1;
+}
+.arrow {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+  position: absolute; width: 12px; height: 12px; background-size: contain;
+  transform: rotate(-90deg);
+  top: 30%;
+  left: 40%;
+}
+.arrow:nth-child(2){
+  top: 42%;
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+  25%{opacity: 0; transform: rotate(-90deg) translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform: rotate(-90deg) translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+}
+
+.back-to-top:hover .arrow{
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+.back-to-top:hover .arrow:nth-child(2){
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-delay:0.2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+@media only screen and (max-width: 575px) {
+  .back-to-top {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+  }
+  .back-to-top.show {
+      bottom: 10px;
+      right: 10px;
+  }
+  .back-to-top.show:hover {
+      bottom: 10px;
+  }
+  .arrow {
+      top: 27%;
+      left: 37%;
+  }
+}
+
+#blok3{
+  background-color: rgb(27, 24, 27);
+  color:#f2f2f2;
+
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row01{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.column{
+  width: 20%;
+
+}
+
+.column img{
+  border-radius: 10px;
+  border: solid 2px #f2f2f2;
+  width: 100%;
+  margin: 10px;
+  transition: 0.5s;
+  filter: brightness(80%);
+}
+
+.column img:hover{
+  transform: scale(108%);
+  transition: 0.5s;
+  filter: brightness(100%);
+}
+
+
+@media  screen and (min-width:1920px) {
+
+  #dodatanblok {
+    height: 750px;
+    }
+}
+
+@media screen and (max-width:1650px){
+  #dodatanblok {
+    height: 600px;
+    }
+     input[type=text], input[type=email], input[type=tel],select,textarea {
+ 
+      font-size: 18px;
+    }
+    .kolona {
+      
+      font-size: 20px;
+    }
+
+    .tekstKartice h4{
+      font-size: 21px;
+    }
+}
+@media screen and (max-width:1140px){
+  #dodatanblok {
+    height: 500px;
+    }
+    .tekstKartice h4{
+      font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ #forma1{width: 100%;}
+  .row2 {
+    width: 80%;
+  }
+
+  #forma1,.divdugme{
+    width: 100%;
+  }
+  .tekstKartice h4{
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  #dodatanblok {
+    height: 100%;
+    }
+.podnaslov h3{ font-size: 35px;}
+.pocetak p{
+  font-size: 30px;
+}
+h2{
+  font-size: 45px;
+  
+
+}
+
+.formaUsluge{padding: 0;}
+
+#select1{
+  width: 100%;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#IspisivanjeKartica{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.rowCard{
+  margin-top: 5%;
+  padding: 0;
+  width: 44%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.rowCard:nth-child(1){
+  padding: 0;
+}
+.card{
+  width: 100%;
+}
+
+a{font-size: 30px;}
+#dodatanblok p{margin-top: 0;
+margin-bottom: 20px;}
+.locationText{padding: 0;}
+.rowGift{display: block;}
+.card2{width: 100%;}
+.card2 img{width: 65%;
+  margin: 20px;}
+.card2 img:hover {
+  -ms-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+
+}
+.row-galerija{flex-direction: row;}
+.row01 {
+  flex-direction: column;
+  align-items: center;
+}
+.column{
+ width: 70%;
+}
+#forma1,.divdugme{
+  width: 100%;
+}
+input[type=text], input[type=email], input[type=tel],select,textarea {
+ 
+  font-size: 20px;
+}
+.kolona {
+  
+  font-size: 23px;
+}
+
+.row2{
+  width: 100%;
+  border-radius: 0px;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+#autor{
+  padding: 0;
+}
+.kolona2din h2{ font-size: 30px;}
+.kolona2din p{
+  font-size: 25px;
+}
+.dokumentacija a{
+  font-size: 25px;
+  
+}
+
+.kolona2din{width: 100%;}
+
+.tekstKartice h4{
+  font-size: 23px;
+}
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+  h2{font-size: 36px;}
+ .podnaslov h3{font-size:30px}
+#forma1{ padding: 0;}
+.red{
+  display: block;
+}
+.kolon{
+  width: 100%;
+}
+.formaGreska{font-size: 15px;}
+.kolona1{padding: 0;}
+input[type=text], input[type=email], input[type=tel],select,textarea {
+ 
+ width: 100%;}
+.social-red{
+  display: block;
+
+}
+.social-kolona{
+  width: 100%;
+  text-align: center;
+}
+.social-kolona h2 {
+  text-align: center;
+}
+.tekstsaleve{
+  font-size: 20px;
+}
+.social-kolona p{
+  font-size: 20px;
+}
+}
+
+
+
+
+@media screen and (max-width: 475px) {
+  .card h4 {
+    font-size:18px;
+    
+}
+  .podnaslov h3{
+    font-size: 25px;
+  }
+  #blok1 p{
+    font-size: 25px;
+  }
+.naslov{font-size: 45px;}
+a{font-size: 20px;}
+
+.kolona {
+  font-size: 20px;
+}
+
+
+#select1 {
+  
+  font-size: 19px;
+ 
+}
+}
+
+
